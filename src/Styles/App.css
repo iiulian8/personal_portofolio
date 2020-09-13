@@ -1,0 +1,42 @@
+ 
+.navbar{
+  background-color: #002366;
+}
+
+#about {
+  background-color:green;
+  opacity: 0.6;
+  width:100%;
+  height: 500px;
+  text-align: center;
+  padding-top:50px;
+}
+
+.nav-elm:hover{
+  border-bottom: 2px solid white;
+  transition: 0.5s;
+  opacity: 0.5;
+  border-radius: 2px;
+}
+
+.nav-elm{
+  padding:10px;
+  margin:10px;
+  color: gold;
+  transition: 0.5s;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
