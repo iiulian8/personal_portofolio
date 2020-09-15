@@ -1,22 +1,14 @@
  
+/*Navbar*/
 .navbar{
   background-color: #002366;
 }
 
-#about {
-  background-color:green;
-  opacity: 0.6;
-  width:100%;
-  height: 500px;
-  text-align: center;
-  padding-top:50px;
-}
-
 .nav-elm:hover{
   border-bottom: 2px solid white;
-  transition: 0.5s;
-  opacity: 0.5;
-  border-radius: 2px;
+  transition: 0.7s;
+  opacity: 0.7;
+ 
 }
 
 .nav-elm{
@@ -24,7 +16,48 @@
   margin:10px;
   color: gold;
   transition: 0.5s;
+  height:50px;
 }
+
+#main-container {
+  width:80%;
+  margin-left:auto;
+  margin-right: auto;
+  height: 50em;
+  text-align: center;
+  display:block;
+  color:#333;
+  background-color: ivory;
+}
+
+#about{
+  display:block;
+  width:90%;
+  height: 25%;
+  text-align:center;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top:40px;
+}
+
+#title-div{
+ padding-top:10px;
+ 
+}
+
+#title-div a {
+  text-decoration:none;
+  color: #333;
+  font-size:30px;
+}
+
+#title-div a hover {
+  color:#333;
+ 
+}
+
+
+
 
 body {
   margin: 0;
