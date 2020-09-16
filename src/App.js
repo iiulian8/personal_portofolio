@@ -1,39 +1,30 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { Navbar, NavLink } from "react-bootstrap";
-import './Styles/main.scss';
-
-
+import dev_logo from "./images/fullstack.svg";
+import Nav from './Navbar';
+import Footer from './Footer';
+import Projects from './Projects';
 
 function App() {
+
+
   return (
     <div className="App">
-
-      <Navbar bg="navbar" textAlign="right" className="justify-content-end">
-        <NavLink className="nav-elm" href="#home">About</NavLink>
-        <NavLink className="nav-elm" href="#home">Projects</NavLink>
-        <NavLink className="nav-elm" href="#home">Technologies</NavLink>
-        <NavLink className="nav-elm" href="#home">Contact</NavLink>
-      </Navbar>
-
-      <div id="main-container">
-        <div id="about">
-          <div id="title-div">
-            <a href="#">Hello, I am Iulian.</a>
-            <h1>I make websites.</h1>
-            <p1>I am a passionate web developer based in UK with a desire to make beautiful and functional websites.</p1>
-          </div>
-          <div id="title-decoration">
-            <hr></hr>
-          </div>
-
-          <div id="worktitle">
-            <h1>My work</h1>
+      <Nav />
+      <div className="main-container">
+        <div id="title">
+          <h1>Julian portofolio</h1>
+          <div id="img-container">
+            <img src={dev_logo} alt = "logo"></img>
           </div>
         </div>
-
+        <div id="about">
+          <p1>My name is Iulian Oprea, I am an UK based web developer with a strong passion for building reliable and visually-pleasing websites.</p1>
+          <p1>My mission is to make sure that every client is treated with respect and that the job is done in the fastest and most efficient way possible.</p1>
+          <p1>With an experience of 0 years, you can expect best practices to be respected and great satisfaction.</p1>
+        </div>
+        <Projects/>
       </div>
-
+      <Footer />
     </div>
   );
 }
