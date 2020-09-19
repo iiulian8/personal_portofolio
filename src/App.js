@@ -1,9 +1,9 @@
 import React from 'react';
-import dev_logo from "./images/fullstack.svg";
 import Nav from './Navbar';
 import Footer from './Footer';
 import Projects from './Projects';
-
+import Technologies from './Technologies';
+import {dev_logo} from './images/import_photos';
 function App() {
 
 
@@ -13,7 +13,7 @@ function App() {
       <div className="main-container">
         <div id="title">
           <h1>Julian portofolio</h1>
-          <div id="img-container">
+          <div id="main-logo">
             <img src={dev_logo} alt = "logo"></img>
           </div>
         </div>

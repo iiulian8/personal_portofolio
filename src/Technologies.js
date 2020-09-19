@@ -1,0 +1,10 @@
+import React from 'react';
+import { bootstrap_logo, css_logo, html_logo, javascript_logo, jquery_logo, php_logo, react_logo } from './images/import_photos';
+
+function Technologies() {
+    return(
+        <div></div>
+    )
+}
+
+export default Technologies;
