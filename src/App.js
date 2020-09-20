@@ -11,8 +11,6 @@ function App() {
     <div className="App">
       <Nav />
       <div className="main-container">
-
-          
           <div id="main-logo">
             <img src={dev_logo} alt = "Developer Logo"></img>
           </div>
