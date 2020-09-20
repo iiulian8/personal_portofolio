@@ -4,8 +4,10 @@ function Projects() {
 
     return (
 
-        <div>
+        <div id = "projects-container">
+            <div id = "projects-title">
             <h1>My projects:</h1>
+            </div>
             <div id="projects-grid">
                 <div className="projects-cell">
 
