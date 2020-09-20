@@ -1,33 +1,46 @@
 import React from 'react';
-import { bootstrap_logo, css_logo, html_logo, javascript_logo, jquery_logo, php_logo, react_logo } from './images/import_photos';
+import { useState } from 'react';
+import { bootstrap_logo, css_logo, html_logo, javascript_logo, jquery_logo, react_logo } from './images/import_photos';
 
 function Technologies() {
-    return(
-        <div id = "projects-grid">
-            <div className = "projects-cell">
-            <img src = {bootstrap_logo}></img>
-            </div>
 
-            <div className = "projects-cell">
-            <img src = {bootstrap_logo}></img>
-            </div>
+    const [clicked, setClicked] = useState('');
 
-            <div className = "projects-cell">
-            <img src = {bootstrap_logo}></img>
-            </div>
+    return (
+        <div id="technologies-container">
 
-            <div className = "projects-cell">
-            <img src = {bootstrap_logo}></img>
-            </div>
+            <h1 id="technologies-title">The technologies I use are:</h1>
 
-            <div className = "projects-cell">
-            <img src = {bootstrap_logo}></img>
-            </div>
+            <div id="technologies-grid">
+                <div className="technologies-cell">
+                    <img src={bootstrap_logo} alt="Bootstrap Logo" onClick={() => setClicked("Bootstrap")}></img>
+                </div>
 
-            <div className = "projects-cell">
-            <img src = {bootstrap_logo}></img>
+                <div className="technologies-cell">
+                    <img src={html_logo} alt="HTML Logo" onClick={() => setClicked("HTML")}></img>
+                </div>
+
+                <div className="technologies-cell">
+                    <img src={css_logo} alt="CSS Logo" onClick={() => setClicked("CSS")}></img>
+                </div>
+
+                <div className="technologies-cell">
+                    <img src={javascript_logo} alt="Javascript Logo" onClick={() => setClicked("Javascript")}></img>
+                </div>
+
+                <div className="technologies-cell">
+                    <img src={jquery_logo} alt="Jquery Logo" onClick={() => setClicked("JQuery")}></img>
+                </div>
+
+                <div className="technologies-cell">
+                    <img src={react_logo} alt="React Logo" onClick={() => setClicked("React")}></img>
+                </div>
+            </div>
+            <div id = "display-container">
+            <p1>{clicked}</p1>
             </div>
         </div>
+
     )
 }
 

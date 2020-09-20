@@ -40,7 +40,6 @@
  }
 
  #main-logo {
-  margin-top:100px;
   display:inline-block;
   width: 400px;
   height: 400px;
@@ -60,37 +59,51 @@
    display:block;
  }
 
- #projects-grid{
-   width:1000px;
-   height: 150px;
+ #technologies-grid{
+   width:1080px;
+   height: 170px;
    display: grid;
    grid-template-columns: 15% 15% 15% 15% 15% 15%;
    justify-content: space-between;
-   background-color: red;
+  background-color: #eee;
    margin-left:auto;
    margin-right: auto;
-   
+   margin-top:50px;
+   border: 3px solid;
  }
 
- .projects-cell{
-   background-color: black;
+ @media(max-width:1080px){
+   #technologies-grid{
+    width:520px;
+    height: 320px;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 50% 50%;
+   }
+
+ }
+
+ .technologies-cell{
     display:inline-block;
     height: 150px;
     width: 150px;
-    
+    margin:auto;
+    border: 3px solid;
  }
 
- .projects-cell img{
-    width: auto;
-    height: auto;
+ .technologies-cell img{
     height: 100%;
     width: 100%;
-    margin-left:auto;
-    margin-right: auto;
  }
 
- 
 
+ #display-container{
+   margin-top:50px;
+   width:250px;
+   height: 100px;
+   margin-left:auto;
+   margin-right: auto;
+   font-size: 50px;
+ }
 
  body {
    margin: 0;
