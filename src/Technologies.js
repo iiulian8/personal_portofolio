@@ -9,7 +9,9 @@ function Technologies() {
     return (
         <div id="technologies-container">
 
-            <h1 id="technologies-title">The technologies I use are:</h1>
+            <div id="technologies-title">
+                <h1>The technologies I use are:</h1>
+            </div>
 
             <div id="technologies-grid">
                 <div className="technologies-cell">
@@ -36,8 +38,8 @@ function Technologies() {
                     <img src={react_logo} alt="React Logo" onClick={() => setClicked("React")}></img>
                 </div>
             </div>
-            <div id = "display-container">
-            <p1>{clicked}</p1>
+            <div id="display-container">
+                <p1>{clicked}</p1>
             </div>
         </div>
 
