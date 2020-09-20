@@ -23,6 +23,7 @@ function App() {
           <p1>With an experience of 0 years, you can expect best practices to be respected and great satisfaction.</p1>
         </div>
         <Technologies />
+        <hr></hr>
         <Projects />
       </div>
       <Footer />

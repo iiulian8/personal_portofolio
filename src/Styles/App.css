@@ -69,17 +69,17 @@
    margin-left:auto;
    margin-right: auto;
    margin-top:50px;
-   border: 3px solid;
+  border: 2px solid;
  }
 
  @media(max-width:1080px){
    #technologies-grid{
-    width:520px;
+    width:550px;
     height: 320px;
     grid-template-columns: 30% 30% 30%;
     grid-template-rows: 50% 50%;
    }
-
+   
  }
 
  .technologies-cell{
@@ -87,7 +87,7 @@
     height: 150px;
     width: 150px;
     margin:auto;
-    border: 3px solid;
+    border: 2px solid;
  }
 
  .technologies-cell img{
