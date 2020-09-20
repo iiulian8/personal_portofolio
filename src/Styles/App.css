@@ -42,17 +42,13 @@
  #main-logo {
   margin-top:100px;
   display:inline-block;
-  width: 740px;
+  width: 400px;
   height: 400px;
  }
 
  #main-logo img {
    width:100%;
    height:100%;
- }
-
- .animated-container{
-   transition: 5s;
  }
 
  #about {
@@ -63,6 +59,38 @@
  #about p1{
    display:block;
  }
+
+ #projects-grid{
+   width:1000px;
+   height: 150px;
+   display: grid;
+   grid-template-columns: 15% 15% 15% 15% 15% 15%;
+   justify-content: space-between;
+   background-color: red;
+   margin-left:auto;
+   margin-right: auto;
+   
+ }
+
+ .projects-cell{
+   background-color: black;
+    display:inline-block;
+    height: 150px;
+    width: 150px;
+    
+ }
+
+ .projects-cell img{
+    width: auto;
+    height: auto;
+    height: 100%;
+    width: 100%;
+    margin-left:auto;
+    margin-right: auto;
+ }
+
+ 
+
 
  body {
    margin: 0;

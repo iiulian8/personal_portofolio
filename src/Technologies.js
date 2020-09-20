@@ -3,7 +3,31 @@ import { bootstrap_logo, css_logo, html_logo, javascript_logo, jquery_logo, php_
 
 function Technologies() {
     return(
-        <div></div>
+        <div id = "projects-grid">
+            <div className = "projects-cell">
+            <img src = {bootstrap_logo}></img>
+            </div>
+
+            <div className = "projects-cell">
+            <img src = {bootstrap_logo}></img>
+            </div>
+
+            <div className = "projects-cell">
+            <img src = {bootstrap_logo}></img>
+            </div>
+
+            <div className = "projects-cell">
+            <img src = {bootstrap_logo}></img>
+            </div>
+
+            <div className = "projects-cell">
+            <img src = {bootstrap_logo}></img>
+            </div>
+
+            <div className = "projects-cell">
+            <img src = {bootstrap_logo}></img>
+            </div>
+        </div>
     )
 }
 
