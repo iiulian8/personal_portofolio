@@ -1,4 +1,5 @@
 import React from 'react';
+import { php_logo } from './images/import_photos';
 
 function Projects() {
 

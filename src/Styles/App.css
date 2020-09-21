@@ -157,6 +157,9 @@
   transition:1s;
 }
 
+ .projects-cell{
+   background-color: #eee;
+ }
 
 
  body {
