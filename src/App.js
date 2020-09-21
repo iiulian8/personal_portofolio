@@ -3,6 +3,7 @@ import Nav from './Navbar';
 import Footer from './Footer';
 import Projects from './Projects';
 import Technologies from './Technologies';
+import Contact from './Contact';
 import { dev_logo } from './images/import_photos';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Technologies />
         <hr></hr>
         <Projects />
+        <Contact />
       </div>
       <Footer />
     </div>
