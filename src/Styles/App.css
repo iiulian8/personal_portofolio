@@ -178,6 +178,12 @@
   transition: 1s;
 }
 
+#nav-dropdown{
+  color:#ffff7f;
+  width:100px;
+  height: 100px;
+}
+
 
 body {
   margin: 0;
