@@ -10,7 +10,7 @@ function Technologies() {
         <div id="technologies-container">
 
             <div id="technologies-title">
-                <h1>The technologies I use are:</h1>
+                <h1>The technologies I use:</h1>
             </div>
 
             <div id="technologies-grid">

@@ -187,6 +187,14 @@
   height: 100px;
 }
 
+#contact-container{
+  margin-top:150px;
+  
+  display:block;
+  height: 500px;
+}
+
+
 body {
   margin: 0;
   font-family: 'Playfair Display', serif;
