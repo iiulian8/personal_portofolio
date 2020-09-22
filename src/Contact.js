@@ -1,11 +1,11 @@
 import React from 'react';
-import { useState, useEffect } from 'react';
+
 
 
 function Contact() {
 
     return (
-        <div>
+        <div id = "contact-container">
             <h1>You can find me on:</h1>
             <div className="contact-logo">
 

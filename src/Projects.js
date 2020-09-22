@@ -1,5 +1,4 @@
 import React from 'react';
-import { php_logo } from './images/import_photos';
 
 function Projects() {
 
@@ -13,63 +12,63 @@ function Projects() {
 
                 <div className="project-cell">
                     <img src="" alt="Project"></img>
-                    <div className="description">
+                    <div className="project-description">
                         <p1>Description</p1>
                     </div>
                 </div>
 
                 <div className="project-cell">
                     <img src="" alt="Project"></img>
-                    <div className="description">
+                    <div className="project-description">
                         <p1>Description</p1>
                     </div>
                 </div>
 
                 <div className="project-cell">
                     <img src="" alt="Project"></img>
-                    <div className="description">
+                    <div className="project-description">
                         <p1>Description</p1>
                     </div>
                 </div>
 
                 <div className="project-cell">
                     <img src="" alt="Project"></img>
-                    <div className="description">
+                    <div className="project-description">
                         <p1>Description</p1>
                     </div>
                 </div>
 
                 <div className="project-cell">
                     <img src="" alt="Project"></img>
-                    <div className="description">
+                    <div className="project-description">
                         <p1>Description</p1>
                     </div>
                 </div>
 
                 <div className="project-cell">
                     <img src="" alt="Project"></img>
-                    <div className="description">
+                    <div className="project-description">
                         <p1>Description</p1>
                     </div>
                 </div>
 
                 <div className="project-cell">
                     <img src="" alt="Project"></img>
-                    <div className="description">
+                    <div className="project-description">
                         <p1>Description</p1>
                     </div>
                 </div>
 
                 <div className="project-cell">
                     <img src="" alt="Project"></img>
-                    <div className="description">
+                    <div className="project-description">
                         <p1>Description</p1>
                     </div>
                 </div>
 
                 <div className="project-cell">
                     <img src="" alt="Project"></img>
-                    <div className="description">
+                    <div className="project-description">
                         <p1>Description</p1>
                     </div>
                 </div>
