@@ -23,6 +23,7 @@
   margin-bottom: 10px;
   display: inline-block;
   width: 100%;
+   
  
 }
 
@@ -52,8 +53,8 @@
 
 #main-logo {
   display: inline-block;
-  width: 400px;
-  height: 400px;
+  width: 320px;
+  height: 320px;
 }
 
 #main-logo img {
@@ -75,6 +76,7 @@
   display: inline-block;
 }
 
+/**
 #technologies-grid {
   width: 1080px;
   height: 200px;
@@ -95,20 +97,32 @@
   }
 
 }
+**/
+
+#technologies-grid {
+ display: grid;
+ width: 100%;
+ justify-content: center;
+ grid-template-columns: repeat(auto-fit, minmax(160px, 160px));
+ grid-gap:20px;
+}
 
 .technologies-cell {
-  display: block;
-  height: 151px;
-  width: 151px;
-  margin:auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 160px;
+  width: 160px;
   border: 2px solid;
+  margin-left:auto;
+  margin-right: auto;
 }
 
 .technologies-cell img {
   height: 90%;
   width: 90%;
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin: auto;
+  
 }
 
 #display-container {
@@ -143,31 +157,42 @@
 
 #projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
-  grid-auto-rows: 240px;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-auto-rows: 320px;
   grid-gap: 10px;
   width: 100%;
 }
 
 .project-cell {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   border: 2px solid black;
-  margin-bottom: 10px;
+
+  height: 100%;
+}
+
+.project-photo{
+
+  justify-self: flex-start;
+  width: 100%;
+  height: 70%;
+  
 }
 
 .project-description {
   width: 100%;
- background-color: red;
-  opacity: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 30%;
+  align-self: flex-end;
   background-color: #313143;
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.project-description:hover {
-  opacity: 40%;
+.project-cell:hover {
+  opacity: 60%;
   transition: 1s;
 }
 

@@ -11,63 +11,54 @@ function Projects() {
             <div id="projects-grid">
 
                 <div className="project-cell">
-                    <img src="" alt="Project"></img>
+                    <div className="project-photo">
+                        <img src="" alt="Project"></img>
+                    </div>
                     <div className="project-description">
                         <p1>Description</p1>
                     </div>
                 </div>
 
                 <div className="project-cell">
-                    <img src="" alt="Project"></img>
+                    <div className="project-photo">
+                        <img src="" alt="Project"></img>
+                    </div>
                     <div className="project-description">
                         <p1>Description</p1>
                     </div>
                 </div>
 
                 <div className="project-cell">
-                    <img src="" alt="Project"></img>
+                    <div className="project-photo">
+                        <img src="" alt="Project"></img>
+                    </div>
                     <div className="project-description">
                         <p1>Description</p1>
                     </div>
                 </div>
 
                 <div className="project-cell">
-                    <img src="" alt="Project"></img>
+                    <div className="project-photo">
+                        <img src="" alt="Project"></img>
+                    </div>
                     <div className="project-description">
                         <p1>Description</p1>
                     </div>
                 </div>
 
                 <div className="project-cell">
-                    <img src="" alt="Project"></img>
+                    <div className="project-photo">
+                        <img src="" alt="Project"></img>
+                    </div>
                     <div className="project-description">
                         <p1>Description</p1>
                     </div>
                 </div>
 
                 <div className="project-cell">
-                    <img src="" alt="Project"></img>
-                    <div className="project-description">
-                        <p1>Description</p1>
+                    <div className="project-photo">
+                        <img src="" alt="Project"></img>
                     </div>
-                </div>
-
-                <div className="project-cell">
-                    <img src="" alt="Project"></img>
-                    <div className="project-description">
-                        <p1>Description</p1>
-                    </div>
-                </div>
-
-                <div className="project-cell">
-                    <img src="" alt="Project"></img>
-                    <div className="project-description">
-                        <p1>Description</p1>
-                    </div>
-                </div>
-
-                <div className="project-cell">
-                    <img src="" alt="Project"></img>
                     <div className="project-description">
                         <p1>Description</p1>
                     </div>
