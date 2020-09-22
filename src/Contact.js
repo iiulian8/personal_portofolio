@@ -1,18 +1,18 @@
 import React from 'react';
-import {useState, useEffect} from 'react';
+import { useState, useEffect } from 'react';
 
 
 function Contact() {
- 
-    return(
+
+    return (
         <div>
             <h1>You can find me on:</h1>
-            <div className = "contact-logo">
+            <div className="contact-logo">
 
             </div>
 
-            <div className = "contact-logo">
-                
+            <div className="contact-logo">
+
             </div>
         </div>
     );

@@ -6,6 +6,9 @@ function Projects() {
     return (
 
         <div id="projects-container">
+            <div id="projects-title">
+                <h1>Some of my projects:</h1>
+            </div>
             <div id="projects-grid">
 
                 <div className="project-cell">

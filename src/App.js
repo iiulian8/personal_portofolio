@@ -12,10 +12,10 @@ function App() {
     <div className="App">
       <Nav />
       <div className="main-container">
-          <div id="main-logo">
-            <img src={dev_logo} alt = "Developer Logo"></img>
-          </div>
-      
+        <div id="main-logo">
+          <img src={dev_logo} alt="Developer Logo"></img>
+        </div>
+
         <div id="about">
           <h1>Hello, I am Iulian.</h1>
           <h1>I design websites.</h1>
