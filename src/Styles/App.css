@@ -10,9 +10,9 @@
 }
 
 .nav-elm:hover {
-  border-bottom: 2px solid #ffff7f;
   transition: 0.7s;
-  opacity: 30%;
+  border-bottom: 2px solid #ffff7f;
+  opacity: 40%;
 }
 
 .nav-elm {
@@ -22,10 +22,12 @@
   transition: 0.5s;
   display: inline-block;
   height: 50px;
-  width: 120px;
+  width: 110px;
   text-align: center;
   margin-right: 1px;
+
 }
+
 
 .main-container {
   text-align: center;
@@ -39,7 +41,7 @@
   padding-top: 30px;
 }
 
-#last-nav-elm {
+#nav-last {
   margin-right: 2%;
 }
 
