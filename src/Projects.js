@@ -7,7 +7,7 @@ function Projects() {
         <div id="projects-container">
             
             <div id="projects-title">
-                <h1>Some of my projects:</h1>
+                <h1>My Projects</h1>
             </div>
 
             <div id="projects-grid">

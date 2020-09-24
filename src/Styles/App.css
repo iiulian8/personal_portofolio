@@ -85,14 +85,57 @@
   display: inline-block;
 }
 
+#html_logo{
+  grid-area:'html_logo';
+}
+
+#css_logo{
+  grid-area:'css_grid';
+}
+
+#javascript_logo{
+  grid-area:'javascript_logo';
+}
+
+#jquery_logo{
+  grid-area:'jquery_logo';
+}
+
+#react_logo{
+  grid-area:'react_logo';
+}
+
+#bootstrap_logo{
+  grid-area:'boostrap_logo';
+}
+
+
 #technologies-grid {
   display: grid;
-  width: 100%;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
   justify-content: center;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 160px));
-  grid-gap: 20px;
-  justify-items: center;
+  grid-gap:20px;
+  grid-template-areas: 'html_logo css_logo javascript_logo jquery_logo react_logo bootstrap_logo';
 }
+
+@media (max-width:680px){
+  #technologies-grid{
+    grid-template-areas: 'html_logo' 'css_logo' 'javascript_logo' 'jquery_logo' 'react_logo' 'bootstrap_logo';
+  }
+}
+
+@media (max-width:992px){
+  #technologies-grid{
+    grid-template-areas: 'html_logo css_logo' 'javascript_logo jquery_logo' 'react_logo bootstrap_logo';
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: red;
+
+  }
+}
+
+
 
 .technologies-cell {
   display: flex;
