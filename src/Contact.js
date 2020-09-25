@@ -6,7 +6,7 @@ function Contact() {
 
     return (
         <div id="contact-container">
-            <h1>You can find me on:</h1>
+            <h1>Other places you can buy me a coffee on</h1>
 
             <div className="contact-elm">
                 <div className="contact-logo">
