@@ -4,11 +4,19 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Nav() {
   return (
-    <nav id="navbar">
-      <li className="nav-elm" href="#">About</li>
-      <li className="nav-elm" href="#">Technologies</li>
-      <li className="nav-elm" href="#">Projects</li>
-      <li className="nav-elm" id = "nav-last" href="#">Contact</li>
+    <nav>
+    <input type="checkbox" id="hamburger-check"></input>
+    <label htmlFor="hamburger-check" className="hamburger-button">
+      <div className="hamburger-line top"></div>
+      <div className="hamburger-line middle"></div>
+      <div className="hamburger-line bottom"></div>
+    </label>
+    <div className="nav-links">
+      <a href="#index.html" className="active">HOME</a>
+      <a href="#work.html">WORK</a>
+      <a href="#about.html">ABOUT</a>
+      <a href="#contact.html">CONTACT</a>
+    </div>
     </nav>
   )
 
