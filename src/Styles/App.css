@@ -33,7 +33,7 @@ nav .nav-links a {
   -webkit-tap-highlight-color: transparent;
 }
 
-nav .nav-links a.active {}
+
 
 nav .hamburger-button {
   width: 50px;
@@ -108,7 +108,6 @@ nav #hamburger-check:checked~.hamburger-button .bottom {
 
 .main-container {
   text-align: center;
-  font-family: 'Playfair Display', serif;
   margin-bottom: 10px;
   display: inline-block;
   width: 100%;
