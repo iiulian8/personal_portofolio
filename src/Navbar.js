@@ -3,6 +3,7 @@ import './Styles/main.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Nav() {
+
   return (
     <nav>
     <input type="checkbox" id="hamburger-check"></input>
