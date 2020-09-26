@@ -3,7 +3,7 @@ import React from 'react';
 function Footer() {
     return (
         <footer id="footer"> 
-        <p1>opreai@roehampton.ac.uk</p1>
+       <h1>Made by Iulian Oprea</h1>
         </footer>
     )
 }
