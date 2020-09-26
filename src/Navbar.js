@@ -13,10 +13,10 @@ function Nav() {
         <div className="hamburger-line bottom"></div>
       </label>
       <div className="nav-links">
-        <a href="#index.html" className="active">HOME</a>
-        <a href="#work.html">WORK</a>
-        <a href="#about.html">ABOUT</a>
-        <a href="#contact.html">CONTACT</a>
+        <a className="nav-elm" href="#index.html">HOME</a>
+        <a className="nav-elm" href="#work.html">WORK</a>
+        <a className="nav-elm" href="#about.html">ABOUT</a>
+        <a className="nav-elm" href="#contact.html">CONTACT</a>
       </div>
     </nav>
   )
