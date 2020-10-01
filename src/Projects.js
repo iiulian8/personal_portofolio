@@ -77,13 +77,9 @@ function Projects() {
                     </span>
                 </a>
 
-
-
             </div>
 
         </div>
-
-
 
     );
 
