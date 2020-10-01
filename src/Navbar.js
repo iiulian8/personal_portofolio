@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Styles/main.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState } from 'react';
@@ -7,10 +7,30 @@ import { useState } from 'react';
 function Nav() {
 
   const [checked, setCheck] = useState(false);
+  const [width, setWindowSize] = useState(undefined);
+
+
+  function handleResize() {
+    setWindowSize(prev => window.innerWidth);
+  }
+
+  useEffect(() => {
+    handleResize();
+  })
 
   function handleCheck() {
-    setCheck(prev => !prev);
+    if (width <= 768)
+      setCheck(prev => !prev);
   }
+
+  useEffect(() => {
+    if (width > 768) {
+      setCheck(prev => false);
+    }
+  }, [window.innerWidth])
+
+  window.addEventListener('resize', handleResize);
+
 
   return (
     <nav>
@@ -21,10 +41,9 @@ function Nav() {
         <div className="hamburger-line bottom"></div>
       </label>
       <div className="nav-links">
-        <a className="nav-elm" onClick={handleCheck} href="#index.html">HOME</a>
-        <a className="nav-elm" onClick={handleCheck} href="#work.html">WORK</a>
-        <a className="nav-elm" onClick={handleCheck} href="#about.html">ABOUT</a>
-        <a className="nav-elm" onClick={handleCheck} href="#contact.html">CONTACT</a>
+        <a className="nav-elm" onClick={handleCheck} href="#main-logo">ABOUT</a>
+        <a className="nav-elm" onClick={handleCheck} href="#projects-grid">WORK</a>
+        <a className="nav-elm" onClick={handleCheck} href="#contact-container">CONTACT</a>
       </div>
     </nav>
   )

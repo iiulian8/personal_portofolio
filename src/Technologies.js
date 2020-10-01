@@ -44,7 +44,7 @@ function Technologies() {
             </div>
         </div> 
 
-        
+    
 
     )
 }

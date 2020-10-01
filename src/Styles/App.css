@@ -200,7 +200,7 @@ nav #hamburger-check:checked~.hamburger-button .bottom {
   }
 }
 
-@media (max-width:48em) {
+@media (max-width:768px) {
   #technologies-grid {
     grid-template-areas: 'html_logo' 'css_logo' 'javascript_logo' 'jquery_logo' 'react_logo' 'bootstrap_logo';
     grid-template-rows: 160px 160px 160px 160px 160px 160px;
@@ -213,7 +213,7 @@ nav #hamburger-check:checked~.hamburger-button .bottom {
   }
 }
 
-@media (min-width: 48em) {
+@media (min-width: 768px) {
   nav .nav-links {
     clear: none;
     float: right;
