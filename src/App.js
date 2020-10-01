@@ -5,11 +5,28 @@ import Projects from './Projects';
 import Technologies from './Technologies';
 import Contact from './Contact';
 import { dev_logo } from './images/import_photos';
+import { useState, useEffect } from 'react';
 
 function App() {
 
+  const [visited, setVisited] = useState(true);
+
+  function handleChange() {
+
+  }
+  useEffect(() => {
+    if (localStorage.getItem('visited') == null) {
+      localStorage.setItem('visited', true);
+      console.log(localStorage.getItem('visited'));
+      setVisited(prev => false);
+    }
+
+  }, []);
+
+
+
   return (
-    <div className="App">
+    <div className={'App ' + (visited ? '' : 'fadeIn')} onChange={handleChange}>
       <Nav />
       <div className="main-container">
         <div id="main-logo">

@@ -8,7 +8,7 @@ function Nav() {
 
   const [checked, setCheck] = useState(false);
   const [width, setWindowSize] = useState(undefined);
-
+ 
 
   function handleResize() {
     setWindowSize(prev => window.innerWidth);
