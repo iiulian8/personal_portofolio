@@ -6,8 +6,7 @@ export const jquery_logo = require('./jquery-2.svg');
 export const php_logo = require('./php-1.svg');
 export const react_logo = require('./react-2.svg');
 export const dev_logo = require('./fullstack.svg');
-export const facebook_icon = require('./facebook-icon.svg')
-
-
+export const facebook_icon = require('./facebook-icon.svg');
+export const github_icon = require('./github-icon.svg');
 
 
