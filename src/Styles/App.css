@@ -112,7 +112,6 @@ nav #hamburger-check:checked~.hamburger-button .bottom {
 }
 
 
-
 #main-logo {
   display: inline-block;
   width: 320px;
@@ -315,25 +314,23 @@ nav #hamburger-check:checked~.hamburger-button .bottom {
 #contact-container {
   margin-top: 150px;
   display: block;
-  height: 200px;
-  width:80%;
+  height: 250px;
+  width:10%;
   margin-left:auto;
   margin-right: auto;
   font-size: 22px;
+  text-align: center;
 }
 
  
-.contact-elm{
-
+.icon-cont{
+  width:75px;
+  height: 75px;
+  margin-left:auto;
+  margin-right: auto;
   margin-top:20px;
-  display: block;
-  
 }
 
-.contact-elm img {
-  display: inline-block;
-  margin-left:20px;
-}
 
 #footer {
   width: 100%;
