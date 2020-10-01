@@ -23,8 +23,6 @@ function App() {
 
   }, []);
 
-
-
   return (
     <div className={'App ' + (visited ? '' : 'fadeIn')} onChange={handleChange}>
       <Nav />

@@ -42,9 +42,9 @@ function Technologies() {
             <div id="display-container">
                 <p1>{clicked}</p1>
             </div>
-        </div> 
+        </div>
 
-    
+
 
     )
 }

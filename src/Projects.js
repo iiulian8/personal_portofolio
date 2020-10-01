@@ -12,7 +12,7 @@ function Projects() {
 
             <div id="projects-grid">
                 <a href="www.google.ro">
-                    <span className="project-cell" id = "pr-1.1">
+                    <span className="project-cell" id="pr-1.1">
                         <div className="project-photo">
                             <img src="" alt="Project"></img>
                         </div>
@@ -23,7 +23,7 @@ function Projects() {
                 </a>
 
                 <a href="www.google.ro">
-                    <span className="project-cell" id = "pr-1.2">
+                    <span className="project-cell" id="pr-1.2">
                         <div className="project-photo">
                             <img src="" alt="Project"></img>
                         </div>
@@ -34,7 +34,7 @@ function Projects() {
                 </a>
 
                 <a href="www.google.ro">
-                    <span className="project-cell" id = "pr-2.1">
+                    <span className="project-cell" id="pr-2.1">
                         <div className="project-photo">
                             <img src="" alt="Project"></img>
                         </div>
@@ -45,7 +45,7 @@ function Projects() {
                 </a>
 
                 <a href="www.google.ro">
-                    <span className="project-cell" id = "pr-2.2">
+                    <span className="project-cell" id="pr-2.2">
                         <div className="project-photo">
                             <img src="" alt="Project"></img>
                         </div>
@@ -56,7 +56,7 @@ function Projects() {
                 </a>
 
                 <a href="www.google.ro">
-                    <span className="project-cell" id = "pr-3.1">
+                    <span className="project-cell" id="pr-3.1">
                         <div className="project-photo">
                             <img src="" alt="Project"></img>
                         </div>
@@ -67,7 +67,7 @@ function Projects() {
                 </a>
 
                 <a href="www.google.ro">
-                    <span className="project-cell" id = "pr-3.2">
+                    <span className="project-cell" id="pr-3.2">
                         <div className="project-photo">
                             <img src="" alt="Project"></img>
                         </div>
