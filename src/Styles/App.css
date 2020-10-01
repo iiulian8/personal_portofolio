@@ -210,6 +210,11 @@ nav #hamburger-check:checked~.hamburger-button .bottom {
     grid-template-columns: 320px;
     grid-template-rows: 320px 320px 320px 320px 320px 320px;
   }
+
+  #footer-made {
+    margin-left:auto;
+    margin-right: auto;
+  }
 }
 
 @media (min-width: 768px) {
@@ -312,27 +317,26 @@ nav #hamburger-check:checked~.hamburger-button .bottom {
 }
 
 #contact-container {
-  margin-top: 150px;
+  margin-top: 50px;
   display: block;
-
-  width:10%;
+  height: 300px;
   margin-left:auto;
   margin-right: auto;
   margin-bottom: 20px;
   font-size: 22px;
-  text-align: center;
   
 }
+
 
  
 .icon-cont{
   width:75px;
   height: 75px;
+  margin-top:20px;
+  margin-right: 20px;
+  display: block;
   margin-left:auto;
   margin-right: auto;
-  margin-top:20px;
-  display: inline-block;
-  margin-right: 20px;
 }
 
 

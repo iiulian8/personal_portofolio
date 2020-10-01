@@ -8,6 +8,7 @@ function Contact() {
         <div id="contact-container">
             <h1>Get in touch</h1>
             <a href="#">opreai@roehampton.ac.uk</a>
+            
             <div className="icon-cont">
                 <a href=" https://www.facebook.com/iiulian8/" target = "_blank">
                     <img src={facebook_icon}></img>
