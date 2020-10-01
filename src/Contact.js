@@ -1,5 +1,5 @@
 import React from 'react';
-import { facebook_icon } from './images/import_photos';
+
 
 
 function Contact() {
@@ -8,7 +8,7 @@ function Contact() {
         <div id="contact-container">
             <h1>Get in touch</h1>
             <a href="#">opreai@roehampton.ac.uk</a>
-
+            <i class="fab fa-github"></i>
 
 
         </div>
