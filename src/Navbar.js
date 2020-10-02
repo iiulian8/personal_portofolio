@@ -27,7 +27,7 @@ function Nav() {
     if (width > 768) {
       setCheck(prev => false);
     }
-  }, [window.innerWidth])
+  }, [width])
 
   window.addEventListener('resize', handleResize);
 
