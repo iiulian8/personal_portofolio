@@ -15,25 +15,20 @@ function Nav() {
   }
 
   useEffect(() => {
+    if (width > 768){
     handleResize();
-  })
+    }
+  },[width])
 
   function handleCheck() {
-    if (width <= 768)
       setCheck(prev => !prev);
-  }
 
-  useEffect(() => {
-    if (width > 768) {
-      setCheck(prev => false);
-    }
-  }, [width])
+  }
 
   window.addEventListener('resize', handleResize);
 
-
   return (
-    <nav>
+    <nav id = {(checked ? "nav-envelop" : 'navbar')} className>
       <input type="checkbox" checked={checked} onClick={handleCheck} id="hamburger-check"></input>
       <label htmlFor="hamburger-check" className="hamburger-button">
         <div className="hamburger-line top"></div>

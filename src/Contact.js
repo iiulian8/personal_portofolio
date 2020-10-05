@@ -9,6 +9,7 @@ function Contact() {
             <h1>Get in touch</h1>
             <a href="#">opreai@roehampton.ac.uk</a>
 
+            <div id = "icons-cont">
             <div className="icon-cont">
                 <a href=" https://www.facebook.com/iiulian8/" target="_blank">
                     <img src={facebook_icon}></img>
@@ -20,7 +21,7 @@ function Contact() {
                     <img src={github_icon}></img>
                 </a>
             </div>
-
+            </div>
 
         </div>
     );

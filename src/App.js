@@ -20,7 +20,6 @@ function App() {
       console.log(localStorage.getItem('visited'));
       setVisited(prev => false);
     }
-
   }, []);
 
   return (
