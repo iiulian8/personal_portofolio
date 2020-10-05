@@ -24,8 +24,8 @@ function App() {
 
   return (
     <div className={'App ' + (visited ? '' : 'fadeIn')} onChange={handleChange}>
-      <Nav />
       <div className="main-container">
+      <Nav />
         <div id="main-logo">
           <img src={dev_logo} alt="Developer Logo"></img>
         </div>
